@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Love App ❤️")
+st.title("My dear Honey, do you love me? ❤️")
 
 # Session state to track if answered
 if "show_no_message" not in st.session_state:
@@ -12,7 +12,7 @@ if not st.session_state.show_no_message:
     
     with col1:
         if st.button("Yes 😍"):
-            st.success("I love you more 😘")
+            st.success("I love you more bubu 😘")
             st.balloons()
             st.stop()
     
